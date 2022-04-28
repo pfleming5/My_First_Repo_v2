@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: white;
+    box-shadow: 0px 0px 20px #888888;
+    font-family: 'Futura'
+
+}
+.intro{
+    padding-top: 75px;
+    margin: 75px;
+}
+.Projects{
+    margin: 75px;
+    padding: 75px;
+}
+.Project img{
+    width: 85%;
+    height: 85%;
+}
+.Project img:hover{
+    background-color: black;
+    opacity: 55%;
+    z-index: 55;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+.UX{
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    
+}
+
+h1{
+    font-family: 'futura';
+
+
+}
+
+.Bio{
+   margin: 75px;
+   padding: 75px;
+}
+.Bio img{ 
+    padding-bottom: 51px;
+    justify-content: center;
+    align-content: center;
+}
+.Bio h2{
+    padding-top: 24px;
+    font-family: 'futura';
+}
+
+footer{
+    background: black;
+    padding: 50px;
+    font-family: 'futura';
+}
+.action{
+    color: white;
+}
+.Links{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Links img{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+.trademark{
+    color:white;
+    flex-direction: row;
+    
+    
+}
