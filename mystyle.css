@@ -84,3 +84,10 @@ footer{
     
     
 }
+@media only screen and (max-width: 500px) { 
+
+    h1 { 
+        color: red;
+    }
+    
+}
