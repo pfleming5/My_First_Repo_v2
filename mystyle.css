@@ -86,8 +86,56 @@ footer{
 }
 @media only screen and (max-width: 500px) { 
 
+    .header {
+        background-color: white;
+        box-shadow: 0px 0px 20px #888888;
+        font-family: 'Futura', 'Nunito', sans-serif;  
+            } 
+
+            .Projects {  
+                display: grid;
+                grid-template-columns: 300px;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                gap: 25px px;
+                grid-auto-flow: row;
+                justify-content: center;
+                align-content: center;
+
+                
+              }
+
+              .row{
+                display: grid;
+                justify-content: center;
+                grid-template-columns: 300px;
+                gap: 50px 50px;
+
+            }
+              
+              .intro{
+                padding-top: 75px;
+                margin: 75px;
+                justify-self: center;
+            }
+           
+            footer{
+                background: black;
+                padding: 100px;
+                font-family: 'futura', 'Nunito', sans-serif;
+            }
+            .Links{
+                display: grid;
+                grid-template-columns: 10px;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                width: 15%;
+                align-items: center;
+                justify-content: center;
+                
+            }
     h1 { 
         color: red;
     }
+
     
-}
+    
+    }
