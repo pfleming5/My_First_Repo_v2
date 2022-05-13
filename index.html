@@ -6,22 +6,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="mystyle.css">
 		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<title>Phillip Fleming UX Portfolio</title>
 	</head>
 	<body>
-		<section class="header">
+		<!-- Top Navigation Menu -->
+<div class="topnav hide" id="secondnav">
+	<a href="#home" class="active">Logo</a>
+	<!-- Navigation links (hidden by default) -->
+	<div id="myLinks">
+	  <a href="#news">News</a>
+	  <a href="#contact">Contact</a>
+	  <a href="#about">About</a>
+	</div>
+	<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	  <i class="fa fa-bars"></i>
+	</a>
+  </div>
+		<section class="header" id="firstnav">
 			<div class="logo">
 				<img src="images/Self_Portrait_5_point 1.png">
 			</div>
 			<nav><div class="UX"> 
                 <a href="index.html">
-				<h3> UX </h3> 
+				<h2> UX </h2> 
 				</a>
 				<a href="page2.html">
-					<h3> ABOUT </h3>
+					<h2> ABOUT </h2>
 				</a>
 				<a href="https://drive.google.com/file/d/1xQlx59yuXTl3hC3-3O7ruhx33dfbL0DL/view?usp=sharing">
-				<h3> RESUME </h3>
+				<h2> RESUME </h2>
 				</a>
 				</div>
 			</nav>
@@ -62,9 +77,10 @@
 			</a>
 				</div> 
 			<div class="trademark">
-				<h2>Ⓒ PHILLIP FLEMING COPYRIGHT 2022 ALL RIGHTS RESERVED</h2>
+				<h1>Ⓒ PHILLIP FLEMING COPYRIGHT 2022 ALL RIGHTS RESERVED</h1>
 			</div>
 		</footer>
-			
+		
+		<script src="interaction.js"></script>
 	</body>
 	</html>
