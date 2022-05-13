@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: white;
+    box-shadow: 0px 0px 20px #888888;
+    font-family: 'Futura', 'Nunito', sans-serif;
+
+}
+.intro{
+    padding-top: 75px;
+    margin: 75px;
+}
+.Projects{
+    margin: 75px;
+    padding: 75px;
+}
+.Project img{
+    width: 85%;
+    height: 85%;
+}
+.Project img:hover{
+    background-color: black;
+    opacity: 55%;
+    z-index: 55;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+.UX{
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    
+}
+
+h1{
+    font-family: 'futura','Nunito', sans-serif;
+
+
+}
+
+.Bio{
+   margin: 75px;
+   padding: 75px;
+}
+.Bio img{ 
+    padding-bottom: 51px;
+    justify-content: center;
+    align-content: center;
+}
+.Bio h2{
+    padding-top: 24px;
+    font-family: 'futura';
+}
+
+footer{
+    background: black;
+    padding: 50px;
+    font-family: 'futura', 'Nunito', sans-serif;
+}
+.action{
+    color: white;
+}
+.Links{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Links img{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+.trademark{
+    color:white;
+    flex-direction: row;
+    
+    
+}
+@media only screen and (max-width: 500px) { 
+
+    .header {
+        background-color: white;
+        box-shadow: 0px 0px 20px #888888;
+        font-family: 'Futura', 'Nunito', sans-serif;  
+            } 
+
+            .Projects {  
+                display: grid;
+                grid-template-columns: 300px;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                gap: 25px px;
+                grid-auto-flow: row;
+                justify-content: center;
+                align-content: center;
+
+                
+              }
+
+              .row{
+                display: grid;
+                justify-content: center;
+                grid-template-columns: 300px;
+                gap: 50px 50px;
+
+            }
+              
+              .intro{
+                padding-top: 75px;
+                margin: 75px;
+                justify-self: center;
+            }
+           
+            footer{
+                background: black;
+                padding: 100px;
+                font-family: 'futura', 'Nunito', sans-serif;
+            }
+            .Links{
+                display: grid;
+                grid-template-columns: 10px;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                width: 15%;
+                align-items: center;
+                justify-content: center;
+                
+            }
+    h1 { 
+        color: red;
+    }
+
+    
+    
+    }
