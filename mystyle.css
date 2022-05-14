@@ -65,6 +65,11 @@ h2:hover{
     margin: 75px;
     padding: 75px;
 }
+.Projects a{
+    color: black;
+    text-decoration: none;
+
+}
 .Project img{
     width: 85%;
     height: 85%;
@@ -98,7 +103,8 @@ h1{
 }
 
 .Bio{
-   margin: 75px;
+    text-align: center;
+    margin: 75px;
    padding: 75px;
 }
 .Bio img{ 
